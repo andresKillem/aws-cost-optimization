@@ -17,7 +17,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:37.923000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:12:56.446000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -33,12 +33,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 57.913333333333334
+          "value": 22.46
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 377.48333333333335
+          "value": 54.16
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -48,7 +48,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 70309546.66666667
+          "value": 26385331.2
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0024c542df39554fe",
@@ -124,7 +124,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:36:09.924000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:40:05.769000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -145,7 +145,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 63.723333333333336
+          "value": 59.59
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -231,7 +231,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:38:27.466000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:41:38.293000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -257,12 +257,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 3390190.933333333
+          "value": 2634615.466666667
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 44537992.53333333
+          "value": 35574920.53333333
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-005cccb3708b89f62",
@@ -312,7 +312,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:29:36.890000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:31:38.902000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -333,7 +333,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 65.95666666666666
+          "value": 53.54666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -419,7 +419,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:35.880000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:18.681000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -440,7 +440,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 55.32333333333333
+          "value": 83.97
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -526,7 +526,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:04:16.788000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:10:03.757000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -542,22 +542,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 13.553333333333333
+          "value": 13.083333333333334
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 69.08333333333333
+          "value": 53.07
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1688712.5333333334
+          "value": 1687142.4
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 32385058.133333333
+          "value": 30137233.066666666
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0118070d16f4c41eb",
@@ -633,7 +633,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:23.849000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:13:08.816000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -740,7 +740,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:33:09.855000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:37:24.092000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -771,7 +771,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 40920541.86666667
+          "value": 25866726.4
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-01596ba941011cdfc",
@@ -847,7 +847,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:36.356000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:14.960000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -868,17 +868,17 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 58.026666666666664
+          "value": 50.38
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 3375035.7333333334
+          "value": 2892526.933333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 42876791.46666667
+          "value": 18543411.2
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-017a3398713dd9fa2",
@@ -928,7 +928,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:21:09.307000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:22:46.347000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -944,12 +944,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 13.68
+          "value": 10.793333333333333
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 67.32
+          "value": 56.21333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -959,7 +959,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 25317512.533333335
+          "value": 21922133.333333332
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0193cd7ca7c6c1d79",
@@ -1035,7 +1035,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:24.006000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:12:50.608000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1051,12 +1051,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 66.80333333333333
+          "value": 71.69
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 170.10666666666665
+          "value": 122.1
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -1066,7 +1066,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 25884680.533333335
+          "value": 21571490.133333333
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-01b9382261f33c8b3",
@@ -1142,7 +1142,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:44.342000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:13:02.562000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1158,22 +1158,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 9.78
+          "value": 5.846666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 76.75666666666666
+          "value": 43.483333333333334
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 367547.73333333334
+          "value": 290269.86666666664
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 25842457.6
+          "value": 12853017.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-01e771bfdb455f8f0",
@@ -1249,7 +1249,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:44:59.222000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:49:23.299000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1280,7 +1280,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 35217271.46666667
+          "value": 18498346.666666668
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0239f9bce97c61ca4",
@@ -1368,7 +1368,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:17.308000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:12:49.114000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1384,22 +1384,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 81.26333333333334
+          "value": 13.023333333333333
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 230.08666666666667
+          "value": 116.18666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 4577143.466666667
+          "value": 276206.93333333335
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 23355878.4
+          "value": 19305873.066666666
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0253f3678a39c8667",
@@ -1475,114 +1475,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:06:50.360000-04:00",
-      "lookBackPeriodInDays": 14.0,
-      "tags": [
-        {
-          "key": "eks:cluster-name",
-          "value": "deuna_pdn"
-        },
-        {
-          "key": "eks:nodegroup-name",
-          "value": "deuna_pdn-eks-customer-experience-node-group"
-        }
-      ],
-      "utilizationMetrics": [
-        {
-          "name": "VolumeReadOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 28.263333333333332
-        },
-        {
-          "name": "VolumeWriteOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 95.17
-        },
-        {
-          "name": "VolumeReadBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 12257280.0
-        },
-        {
-          "name": "VolumeWriteBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 33033992.533333335
-        }
-      ],
-      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-02870a9a07fdec4f1",
-      "volumeRecommendationOptions": [
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 150,
-            "volumeBaselineThroughput": 128,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 128,
-            "volumeSize": 50,
-            "volumeType": "gp2"
-          },
-          "performanceRisk": 1.0,
-          "rank": 2,
-          "savingsOpportunity": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 0.0
-            },
-            "savingsOpportunityPercentage": 0.0
-          },
-          "savingsOpportunityAfterDiscounts": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 0.0
-            },
-            "savingsOpportunityPercentage": 0.0
-          }
-        },
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 3000,
-            "volumeBaselineThroughput": 125,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 125,
-            "volumeSize": 50,
-            "volumeType": "gp3"
-          },
-          "performanceRisk": 1.0,
-          "rank": 1,
-          "savingsOpportunity": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 1.0
-            },
-            "savingsOpportunityPercentage": 20.0
-          },
-          "savingsOpportunityAfterDiscounts": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 1.0
-            },
-            "savingsOpportunityPercentage": 20.0
-          }
-        }
-      ]
-    },
-    {
-      "accountId": "678049842740",
-      "currentConfiguration": {
-        "rootVolume": true,
-        "volumeBaselineIOPS": 150,
-        "volumeBaselineThroughput": 128,
-        "volumeBurstIOPS": 3000,
-        "volumeBurstThroughput": 128,
-        "volumeSize": 50,
-        "volumeType": "gp2"
-      },
-      "effectiveRecommendationPreferences": {
-        "savingsEstimationMode": {
-          "source": "CostOptimizationHub"
-        }
-      },
-      "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:29:39.460000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:31:59.218000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1598,12 +1491,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 8.816666666666666
+          "value": 6.513333333333334
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 63.26
+          "value": 60.623333333333335
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -1613,7 +1506,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 31521476.266666666
+          "value": 28827929.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-02de0baa9ebf36c39",
@@ -1689,7 +1582,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:55.585000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:13:25.342000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1705,7 +1598,7 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 0.013333333333333334
+          "value": 0.016666666666666666
         },
         {
           "name": "VolumeWriteOpsPerSecond",
@@ -1796,7 +1689,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:03:55.272000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:37.615000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1812,12 +1705,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 11.246666666666666
+          "value": 10.886666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 59.903333333333336
+          "value": 70.90333333333334
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -1903,7 +1796,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:04:07.306000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:59.800000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -1919,22 +1812,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 84.35
+          "value": 1.04
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 294.28333333333336
+          "value": 82.0
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 4324078.933333334
+          "value": 330547.2
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 42085819.733333334
+          "value": 27388842.666666668
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-03619110cfb1ae4fd",
@@ -2010,7 +1903,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:35.867000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:13.545000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2031,7 +1924,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 56.39666666666667
+          "value": 50.68
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -2091,7 +1984,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:36.468000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:18.400000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2112,7 +2005,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 64.87
+          "value": 53.63666666666666
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -2122,7 +2015,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 44795852.8
+          "value": 35157162.666666664
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-036bf06795c1178a5",
@@ -2198,7 +2091,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:45:50.768000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:50:01.031000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2214,17 +2107,17 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 17.33
+          "value": 8.363333333333333
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 66.4
+          "value": 52.36
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 6252134.4
+          "value": 1851665.0666666667
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -2292,6 +2185,87 @@
       "accountId": "678049842740",
       "currentConfiguration": {
         "rootVolume": true,
+        "volumeBaselineIOPS": 3000,
+        "volumeBaselineThroughput": 125,
+        "volumeBurstIOPS": 3000,
+        "volumeBurstThroughput": 125,
+        "volumeSize": 30,
+        "volumeType": "gp3"
+      },
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "Optimized",
+      "lastRefreshTimestamp": "2025-10-26T14:10:47.625000-04:00",
+      "lookBackPeriodInDays": 14.0,
+      "tags": [
+        {
+          "key": "eks:cluster-name",
+          "value": "deuna_pdn"
+        },
+        {
+          "key": "eks:nodegroup-name",
+          "value": "eks-deuna_pdn-us-east-1-basic-addons-node-group"
+        }
+      ],
+      "utilizationMetrics": [
+        {
+          "name": "VolumeReadOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 14.653333333333334
+        },
+        {
+          "name": "VolumeWriteOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 42.50666666666667
+        },
+        {
+          "name": "VolumeReadBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 2333764.2666666666
+        },
+        {
+          "name": "VolumeWriteBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 15115127.466666667
+        }
+      ],
+      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-037f72a873940f33b",
+      "volumeRecommendationOptions": [
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 3000,
+            "volumeBaselineThroughput": 125,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 125,
+            "volumeSize": 30,
+            "volumeType": "gp3"
+          },
+          "performanceRisk": 1.0,
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "accountId": "678049842740",
+      "currentConfiguration": {
+        "rootVolume": true,
         "volumeBaselineIOPS": 150,
         "volumeBaselineThroughput": 128,
         "volumeBurstIOPS": 3000,
@@ -2305,7 +2279,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:36.930000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:16.344000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2326,7 +2300,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 106.59666666666666
+          "value": 56.77333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -2412,7 +2386,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:21.774000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:12:43.810000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2428,12 +2402,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 15.843333333333334
+          "value": 21.326666666666668
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 65.27333333333333
+          "value": 65.26666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -2443,7 +2417,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 37086856.53333333
+          "value": 21954824.533333335
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-03cbde34e75b53d0c",
@@ -2513,14 +2487,13 @@
         "volumeSize": 50,
         "volumeType": "gp2"
       },
-      "currentPerformanceRisk": "Low",
       "effectiveRecommendationPreferences": {
         "savingsEstimationMode": {
           "source": "CostOptimizationHub"
         }
       },
-      "finding": "NotOptimized",
-      "lastRefreshTimestamp": "2025-10-19T20:53:33.088000-04:00",
+      "finding": "Optimized",
+      "lastRefreshTimestamp": "2025-10-26T14:58:45.473000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2536,49 +2509,77 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 2069.1566666666668
+          "value": 0.03666666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 80.89
+          "value": 61.57
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 134457002.66666666
+          "value": 9420.8
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 27501312.0
+          "value": 26119466.666666668
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-03e52b33657f4b886",
       "volumeRecommendationOptions": [
         {
           "configuration": {
-            "volumeBaselineIOPS": 3000,
-            "volumeBaselineThroughput": 167,
+            "volumeBaselineIOPS": 150,
+            "volumeBaselineThroughput": 128,
             "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 167,
+            "volumeBurstThroughput": 128,
+            "volumeSize": 50,
+            "volumeType": "gp2"
+          },
+          "performanceRisk": 1.0,
+          "rank": 2,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        },
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 3000,
+            "volumeBaselineThroughput": 125,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 125,
             "volumeSize": 50,
             "volumeType": "gp3"
           },
           "performanceRisk": 1.0,
-          "rank": 1
-        },
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 513,
-            "volumeBaselineThroughput": 250,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 250,
-            "volumeSize": 171,
-            "volumeType": "gp2"
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
           },
-          "performanceRisk": 1.0,
-          "rank": 2
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
+          }
         }
       ]
     },
@@ -2599,7 +2600,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:20.246000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:12:47.175000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2615,12 +2616,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 47.79
+          "value": 87.77666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 154.71333333333334
+          "value": 128.08666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -2630,7 +2631,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 41486404.266666666
+          "value": 18098158.933333334
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-04012fb3329370e57",
@@ -2706,7 +2707,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:08:57.100000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:16:58.064000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2722,7 +2723,7 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 19.936666666666667
+          "value": 13.53
         },
         {
           "name": "VolumeWriteOpsPerSecond",
@@ -2813,7 +2814,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:02:30.415000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:08:22.107000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2834,7 +2835,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 64.76666666666667
+          "value": 61.03666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -2844,7 +2845,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 24433194.666666668
+          "value": 22146944.0
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-042d2ded224497d94",
@@ -2920,7 +2921,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:52:50.531000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:58:14.434000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -2946,12 +2947,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1805926.4
+          "value": 1482956.8
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 42765721.6
+          "value": 34525047.46666667
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-04706182271a97774",
@@ -3001,7 +3002,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:04:31.590000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:10:30.754000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3032,7 +3033,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 44951099.733333334
+          "value": 31341457.066666666
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-048a4130f31969599",
@@ -3108,7 +3109,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:10:56.418000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:12:34.150000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3129,7 +3130,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 63.41
+          "value": 57.46
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -3139,7 +3140,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 29239125.333333332
+          "value": 19762491.733333334
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-04aa564d4e97bd184",
@@ -3215,7 +3216,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:44.803000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:13:12.289000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3236,12 +3237,12 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 60.82333333333333
+          "value": 37.85
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 860979.2
+          "value": 298257.06666666665
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -3322,7 +3323,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:10:39.511000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:10:47.830000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3338,12 +3339,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 18.403333333333332
+          "value": 16.253333333333334
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 71.38
+          "value": 52.43666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -3353,7 +3354,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 35243733.333333336
+          "value": 27687449.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-04cf72de2db809187",
@@ -3429,7 +3430,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:47:05.125000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:50:53.922000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3455,7 +3456,7 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 778786.1333333333
+          "value": 185958.4
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -3536,7 +3537,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:02:43.904000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:08:26.150000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3643,7 +3644,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:04:19.104000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:42.043000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3664,7 +3665,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 62.53333333333333
+          "value": 38.65
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -3724,7 +3725,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:20:40.696000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:22:01.767000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [],
       "utilizationMetrics": [
@@ -3741,12 +3742,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 15200597.333333334
+          "value": 7586269.866666666
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 67046058.666666664
+          "value": 32410282.666666668
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-059ceb00170f08e04",
@@ -3796,88 +3797,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:37.296000-04:00",
-      "lookBackPeriodInDays": 14.0,
-      "tags": [
-        {
-          "key": "eks:cluster-name",
-          "value": "deuna_pdn"
-        },
-        {
-          "key": "eks:nodegroup-name",
-          "value": "eks-deuna_pdn-us-east-1-basic-addons-node-group"
-        }
-      ],
-      "utilizationMetrics": [
-        {
-          "name": "VolumeReadOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 42.56666666666667
-        },
-        {
-          "name": "VolumeWriteOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 125.37333333333333
-        },
-        {
-          "name": "VolumeReadBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 9617954.133333333
-        },
-        {
-          "name": "VolumeWriteBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 61081736.53333333
-        }
-      ],
-      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-05b23353843f3bd08",
-      "volumeRecommendationOptions": [
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 3000,
-            "volumeBaselineThroughput": 125,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 125,
-            "volumeSize": 30,
-            "volumeType": "gp3"
-          },
-          "performanceRisk": 1.0,
-          "rank": 1,
-          "savingsOpportunity": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 0.0
-            },
-            "savingsOpportunityPercentage": 0.0
-          },
-          "savingsOpportunityAfterDiscounts": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 0.0
-            },
-            "savingsOpportunityPercentage": 0.0
-          }
-        }
-      ]
-    },
-    {
-      "accountId": "678049842740",
-      "currentConfiguration": {
-        "rootVolume": true,
-        "volumeBaselineIOPS": 3000,
-        "volumeBaselineThroughput": 125,
-        "volumeBurstIOPS": 3000,
-        "volumeBurstThroughput": 125,
-        "volumeSize": 30,
-        "volumeType": "gp3"
-      },
-      "effectiveRecommendationPreferences": {
-        "savingsEstimationMode": {
-          "source": "CostOptimizationHub"
-        }
-      },
-      "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:20:33.471000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:22:01.889000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3898,17 +3818,17 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 59.156666666666666
+          "value": 45.25333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 83148.8
+          "value": 41369.6
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 32803566.933333334
+          "value": 22472772.266666666
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-05b706267bf3f8f02",
@@ -3958,7 +3878,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:04:06.333000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:26.608000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -3979,7 +3899,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 78.67666666666666
+          "value": 67.99
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -4065,7 +3985,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:26:04.290000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:29:13.883000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4081,22 +4001,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 18.53
+          "value": 12.603333333333333
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 69.78666666666666
+          "value": 44.303333333333335
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 5305958.4
+          "value": 2764526.933333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 28765508.266666666
+          "value": 22518041.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-06a19bcc4ade0452f",
@@ -4172,7 +4092,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:38:37.858000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:41:34.165000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4188,22 +4108,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 79.95666666666666
+          "value": 2.34
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 129.57666666666665
+          "value": 86.61
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 5572198.4
+          "value": 284467.2
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 35563451.733333334
+          "value": 21262267.733333334
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-06c77104a968a06e0",
@@ -4279,7 +4199,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:22.486000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:24.577000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4300,7 +4220,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 77.13333333333334
+          "value": 44.916666666666664
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -4310,7 +4230,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 41423078.4
+          "value": 21845000.533333335
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-06e8e901e3ad2c236",
@@ -4386,7 +4306,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:46:17.576000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:50:23.179000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4407,7 +4327,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 66.37
+          "value": 67.98666666666666
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -4493,7 +4413,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:55:21.463000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:00:11.459000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4519,12 +4439,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 7115366.4
+          "value": 2913757.8666666667
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 28499899.733333334
+          "value": 22549486.933333334
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-07ac8ec23a39f9b91",
@@ -4600,126 +4520,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:46:33.810000-04:00",
-      "lookBackPeriodInDays": 14.0,
-      "tags": [
-        {
-          "key": "eks:cluster-name",
-          "value": "deuna_pdn"
-        },
-        {
-          "key": "eks:nodegroup-name",
-          "value": "deuna_pdn-eks-transversal-node-group"
-        }
-      ],
-      "utilizationMetrics": [
-        {
-          "name": "VolumeReadOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 420.08
-        },
-        {
-          "name": "VolumeWriteOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 240.01666666666668
-        },
-        {
-          "name": "VolumeReadBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 22110216.533333335
-        },
-        {
-          "name": "VolumeWriteBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 29880251.733333334
-        }
-      ],
-      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-07c398cfff543bb55",
-      "volumeRecommendationOptions": [
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 150,
-            "volumeBaselineThroughput": 128,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 128,
-            "volumeSize": 50,
-            "volumeType": "gp2"
-          },
-          "performanceRisk": 2.0,
-          "rank": 2,
-          "savingsOpportunity": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 0.0
-            },
-            "savingsOpportunityPercentage": 0.0
-          },
-          "savingsOpportunityAfterDiscounts": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 0.0
-            },
-            "savingsOpportunityPercentage": 0.0
-          }
-        },
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 3000,
-            "volumeBaselineThroughput": 125,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 125,
-            "volumeSize": 50,
-            "volumeType": "gp3"
-          },
-          "performanceRisk": 1.0,
-          "rank": 1,
-          "savingsOpportunity": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 1.0
-            },
-            "savingsOpportunityPercentage": 20.0
-          },
-          "savingsOpportunityAfterDiscounts": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 1.0
-            },
-            "savingsOpportunityPercentage": 20.0
-          }
-        },
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 225,
-            "volumeBaselineThroughput": 128,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 128,
-            "volumeSize": 75,
-            "volumeType": "gp2"
-          },
-          "performanceRisk": 1.0,
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "accountId": "678049842740",
-      "currentConfiguration": {
-        "rootVolume": true,
-        "volumeBaselineIOPS": 150,
-        "volumeBaselineThroughput": 128,
-        "volumeBurstIOPS": 3000,
-        "volumeBurstThroughput": 128,
-        "volumeSize": 50,
-        "volumeType": "gp2"
-      },
-      "effectiveRecommendationPreferences": {
-        "savingsEstimationMode": {
-          "source": "CostOptimizationHub"
-        }
-      },
-      "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:39.876000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:16.614000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4826,7 +4627,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:04:06.833000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:44.967000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4847,7 +4648,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 63.39666666666667
+          "value": 46.67333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -4857,7 +4658,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 41703961.6
+          "value": 20293990.4
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-083f8602e4a8ba95a",
@@ -4933,7 +4734,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:19:49.886000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:21:53.457000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -4949,22 +4750,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 29.69
+          "value": 24.696666666666665
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 70.15
+          "value": 53.776666666666664
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 7058227.2
+          "value": 4247552.0
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 23594137.6
+          "value": 21024896.0
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0840cbade5c56d98e",
@@ -5040,7 +4841,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:23.849000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:13:08.816000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5056,12 +4857,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 23.81
+          "value": 18.743333333333332
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 71.73333333333333
+          "value": 48.07333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -5071,7 +4872,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 33517585.066666666
+          "value": 32060663.466666665
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-08428c33ff418631f",
@@ -5147,7 +4948,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:20:31.860000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:21:53.678000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5163,12 +4964,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 12.043333333333333
+          "value": 8.656666666666666
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 56.92666666666667
+          "value": 56.44
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -5254,7 +5055,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:47:32.071000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:51:45.976000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5270,22 +5071,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 18.34
+          "value": 16.276666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 64.73333333333333
+          "value": 53.13333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 4701798.4
+          "value": 1359189.3333333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 38845619.2
+          "value": 33352345.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-08908dddcbf8f717a",
@@ -5361,29 +5162,29 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:36:27.761000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:39:54.930000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [],
       "utilizationMetrics": [
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 354.39666666666665
+          "value": 5.763333333333334
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 1361.87
+          "value": 1404.3933333333334
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 52589337.6
+          "value": 471927.4666666667
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 59523822.93333333
+          "value": 30223496.533333335
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0893b7f862232e6c3",
@@ -5420,6 +5221,113 @@
       "accountId": "678049842740",
       "currentConfiguration": {
         "rootVolume": true,
+        "volumeBaselineIOPS": 150,
+        "volumeBaselineThroughput": 128,
+        "volumeBurstIOPS": 3000,
+        "volumeBurstThroughput": 128,
+        "volumeSize": 50,
+        "volumeType": "gp2"
+      },
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "Optimized",
+      "lastRefreshTimestamp": "2025-10-26T14:39:15.980000-04:00",
+      "lookBackPeriodInDays": 14.0,
+      "tags": [
+        {
+          "key": "eks:cluster-name",
+          "value": "deuna_pdn"
+        },
+        {
+          "key": "eks:nodegroup-name",
+          "value": "deuna_pdn-eks-transversal-node-group"
+        }
+      ],
+      "utilizationMetrics": [
+        {
+          "name": "VolumeReadOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 10.08
+        },
+        {
+          "name": "VolumeWriteOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 97.79666666666667
+        },
+        {
+          "name": "VolumeReadBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 1890986.6666666667
+        },
+        {
+          "name": "VolumeWriteBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 2480145.066666667
+        }
+      ],
+      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-090dd3d84af97eca7",
+      "volumeRecommendationOptions": [
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 150,
+            "volumeBaselineThroughput": 128,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 128,
+            "volumeSize": 50,
+            "volumeType": "gp2"
+          },
+          "performanceRisk": 1.0,
+          "rank": 2,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        },
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 3000,
+            "volumeBaselineThroughput": 125,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 125,
+            "volumeSize": 50,
+            "volumeType": "gp3"
+          },
+          "performanceRisk": 1.0,
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "accountId": "678049842740",
+      "currentConfiguration": {
+        "rootVolume": true,
         "volumeBaselineIOPS": 3000,
         "volumeBaselineThroughput": 125,
         "volumeBurstIOPS": 3000,
@@ -5433,7 +5341,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:02:50.472000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:08:24.948000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5449,22 +5357,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 17.04
+          "value": 12.276666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 65.70666666666666
+          "value": 52.123333333333335
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 4312746.666666667
+          "value": 2366668.8
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 24586171.733333334
+          "value": 21689207.466666665
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0915e847c7a1b117e",
@@ -5514,7 +5422,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:22.684000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:18.706000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5535,17 +5443,17 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 69.33
+          "value": 46.17666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 2695918.933333333
+          "value": 2142412.8
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 22449442.133333333
+          "value": 22062540.8
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-09240e9630e8e8b81",
@@ -5621,7 +5529,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:19:03.506000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:20:54.490000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5642,7 +5550,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 63.77333333333333
+          "value": 60.02333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -5652,7 +5560,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 34114406.4
+          "value": 31418325.333333332
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-096dec0c2ba4b5b8f",
@@ -5728,7 +5636,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:45:39.191000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:50:02.783000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5754,12 +5662,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 2287001.6
+          "value": 2256554.6666666665
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 44165188.266666666
+          "value": 31680853.333333332
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-097a3fd20ebe22d13",
@@ -5809,7 +5717,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:38:14.777000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:41:41.488000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5825,7 +5733,7 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 32.013333333333335
+          "value": 13.69
         },
         {
           "name": "VolumeWriteOpsPerSecond",
@@ -5840,7 +5748,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 39093717.333333336
+          "value": 20078907.733333334
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-09b28ef54db7e5c40",
@@ -5916,7 +5824,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:55:29.383000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:00:13.799000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -5932,12 +5840,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 11.256666666666666
+          "value": 11.04
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 63.8
+          "value": 56.52
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -6023,7 +5931,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:21:12.062000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:22:32.690000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6039,22 +5947,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 10.026666666666667
+          "value": 19.98
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 44.54
+          "value": 68.51666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 3816925.8666666667
+          "value": 3612603.7333333334
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 30110498.133333333
+          "value": 24021000.533333335
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-09c31aa083ee7131b",
@@ -6130,7 +6038,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:35:40.485000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:39:47.135000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6151,7 +6059,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 61.71
+          "value": 64.32666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -6161,7 +6069,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 34388002.13333333
+          "value": 27888358.4
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-09c646b077ff567ea",
@@ -6237,7 +6145,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:29:37.938000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:31:31.977000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6258,12 +6166,12 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 117.23
+          "value": 69.87666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1660928.0
+          "value": 1468962.1333333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -6344,7 +6252,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:28:30.345000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:31:03.197000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [],
       "utilizationMetrics": [
@@ -6361,7 +6269,7 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 103697.06666666667
+          "value": 108270.93333333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -6416,7 +6324,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:46:36.780000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:50:47.376000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6432,22 +6340,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 71.56333333333333
+          "value": 90.45
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 142.26
+          "value": 115.23333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 7910468.266666667
+          "value": 7381094.4
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 23277303.466666665
+          "value": 22719496.533333335
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0a21e9972b5a095ed",
@@ -6523,7 +6431,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:55:41.166000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:00:30.328000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6539,7 +6447,7 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 10.936666666666667
+          "value": 34.16
         },
         {
           "name": "VolumeWriteOpsPerSecond",
@@ -6549,7 +6457,7 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 2234777.6
+          "value": 3308774.4
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -6630,7 +6538,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:37.089000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:16.372000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6646,7 +6554,7 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 6.9366666666666665
+          "value": 5.81
         },
         {
           "name": "VolumeWriteOpsPerSecond",
@@ -6656,12 +6564,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1211392.0
+          "value": 1019630.9333333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 22510139.733333334
+          "value": 19662796.8
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0a42cf5d68bc8f9e9",
@@ -6737,7 +6645,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:33:10.082000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:37:11.671000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6844,7 +6752,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:21:18.654000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:22:23.719000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6860,17 +6768,17 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 19.27
+          "value": 17.743333333333332
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 53.62
+          "value": 66.84666666666666
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1793979.7333333334
+          "value": 2359842.1333333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -6951,7 +6859,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:30:04.582000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:32:04.226000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -6977,12 +6885,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 775509.3333333334
+          "value": 185344.0
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 21336098.133333333
+          "value": 19839795.2
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0a70c329785560c34",
@@ -7058,7 +6966,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:42:24.784000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:48:37.134000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7074,22 +6982,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 24.16
+          "value": 14.216666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 71.5
+          "value": 44.89666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 5499494.4
+          "value": 4745762.133333334
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 22816221.866666667
+          "value": 20836206.933333334
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0a8e30a6b281e4ab6",
@@ -7165,7 +7073,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:04:07.242000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:16:38.355000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7174,32 +7082,32 @@
         },
         {
           "key": "eks:nodegroup-name",
-          "value": "deuna_pdn-eks-customer-experience-node-group"
+          "value": "deuna_pdn-eks-transversal-node-group"
         }
       ],
       "utilizationMetrics": [
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 22.843333333333334
+          "value": 55.0
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 59.65
+          "value": 257.50333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1543441.0666666667
+          "value": 26142242.133333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 22098747.733333334
+          "value": 71913190.4
         }
       ],
-      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0aa9d722983f6ea47",
+      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0ac4aa787824a6a9b",
       "volumeRecommendationOptions": [
         {
           "configuration": {
@@ -7272,7 +7180,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:02:43.904000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:08:26.150000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7379,7 +7287,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:36.591000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:19.863000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7395,22 +7303,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 34.50666666666667
+          "value": 28.726666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 68.56
+          "value": 52.443333333333335
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 9947477.333333334
+          "value": 5247522.133333334
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 31484800.0
+          "value": 22045329.066666666
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0b47676a7828aaedb",
@@ -7486,7 +7394,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:02:50.553000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:08:24.699000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7593,7 +7501,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:03:27.508000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:11.270000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7609,22 +7517,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 24.856666666666666
+          "value": 23.08
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 71.36333333333333
+          "value": 46.11666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 5264315.733333333
+          "value": 4769314.133333334
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 26829704.533333335
+          "value": 22098542.933333334
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0bf5293aa33217bcc",
@@ -7700,7 +7608,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:58:16.630000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:06:40.453000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7721,7 +7629,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 66.55333333333333
+          "value": 61.556666666666665
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -7807,7 +7715,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:29:47.404000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:31:42.843000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -7828,7 +7736,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 70.31333333333333
+          "value": 59.376666666666665
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -7914,29 +7822,29 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:23.647000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:12:54.782000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [],
       "utilizationMetrics": [
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 354.99
+          "value": 258.13666666666666
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 755.4333333333333
+          "value": 714.0
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 8429499.733333332
+          "value": 5222468.266666667
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 28960563.2
+          "value": 24956245.333333332
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0c43c9f64af86b39d",
@@ -7986,7 +7894,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:55:37.741000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:00:24.863000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8002,22 +7910,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 29.576666666666668
+          "value": 18.726666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 73.4
+          "value": 70.23666666666666
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 4262690.133333334
+          "value": 2501563.7333333334
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 45376460.8
+          "value": 35148057.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0c5f51507e4ee18c5",
@@ -8087,119 +7995,13 @@
         "volumeSize": 50,
         "volumeType": "gp2"
       },
-      "currentPerformanceRisk": "Low",
-      "effectiveRecommendationPreferences": {
-        "savingsEstimationMode": {
-          "source": "CostOptimizationHub"
-        }
-      },
-      "finding": "NotOptimized",
-      "lastRefreshTimestamp": "2025-10-19T20:29:39.688000-04:00",
-      "lookBackPeriodInDays": 14.0,
-      "tags": [
-        {
-          "key": "eks:cluster-name",
-          "value": "deuna_pdn"
-        },
-        {
-          "key": "eks:nodegroup-name",
-          "value": "deuna_pdn-eks-transversal-node-group"
-        }
-      ],
-      "utilizationMetrics": [
-        {
-          "name": "VolumeReadOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 463.16
-        },
-        {
-          "name": "VolumeWriteOpsPerSecond",
-          "statistic": "Maximum",
-          "value": 227.28
-        },
-        {
-          "name": "VolumeReadBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 24424268.8
-        },
-        {
-          "name": "VolumeWriteBytesPerSecond",
-          "statistic": "Maximum",
-          "value": 30381721.6
-        }
-      ],
-      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0cf5c6be1817be197",
-      "volumeRecommendationOptions": [
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 3000,
-            "volumeBaselineThroughput": 125,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 125,
-            "volumeSize": 50,
-            "volumeType": "gp3"
-          },
-          "performanceRisk": 1.0,
-          "rank": 1,
-          "savingsOpportunity": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 1.0
-            },
-            "savingsOpportunityPercentage": 20.0
-          },
-          "savingsOpportunityAfterDiscounts": {
-            "estimatedMonthlySavings": {
-              "currency": "USD",
-              "value": 1.0
-            },
-            "savingsOpportunityPercentage": 20.0
-          }
-        },
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 156,
-            "volumeBaselineThroughput": 128,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 128,
-            "volumeSize": 52,
-            "volumeType": "gp2"
-          },
-          "performanceRisk": 2.0,
-          "rank": 2
-        },
-        {
-          "configuration": {
-            "volumeBaselineIOPS": 216,
-            "volumeBaselineThroughput": 128,
-            "volumeBurstIOPS": 3000,
-            "volumeBurstThroughput": 128,
-            "volumeSize": 72,
-            "volumeType": "gp2"
-          },
-          "performanceRisk": 1.0,
-          "rank": 3
-        }
-      ]
-    },
-    {
-      "accountId": "678049842740",
-      "currentConfiguration": {
-        "rootVolume": true,
-        "volumeBaselineIOPS": 150,
-        "volumeBaselineThroughput": 128,
-        "volumeBurstIOPS": 3000,
-        "volumeBurstThroughput": 128,
-        "volumeSize": 50,
-        "volumeType": "gp2"
-      },
       "effectiveRecommendationPreferences": {
         "savingsEstimationMode": {
           "source": "CostOptimizationHub"
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:29:49.736000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:32:20.137000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8220,17 +8022,17 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 66.66
+          "value": 58.913333333333334
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 357376.0
+          "value": 186094.93333333332
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 24960887.466666665
+          "value": 17759061.333333332
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0d1f239cf276fd5e6",
@@ -8306,7 +8108,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:07:43.630000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:16:08.847000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8322,12 +8124,12 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 8.116666666666667
+          "value": 4.9366666666666665
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 56.63666666666666
+          "value": 51.42333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -8337,7 +8139,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 37603191.46666667
+          "value": 32364339.2
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0d5785e7e524fe79e",
@@ -8387,7 +8189,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:36.536000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:19.752000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8408,12 +8210,12 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 69.87
+          "value": 64.0
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 201181.86666666667
+          "value": 197290.66666666666
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -8494,7 +8296,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:38:31.684000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:41:26.950000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8515,12 +8317,12 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 62.553333333333335
+          "value": 61.946666666666665
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 267264.0
+          "value": 116326.4
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -8601,7 +8403,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:36.509000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:15.103000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8617,7 +8419,7 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 10.196666666666667
+          "value": 8.86
         },
         {
           "name": "VolumeWriteOpsPerSecond",
@@ -8627,12 +8429,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1966967.4666666666
+          "value": 1505143.4666666666
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 22298453.333333332
+          "value": 19953817.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0da3d6f599c06ae5a",
@@ -8708,7 +8510,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:12:52.803000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:13:11.268000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8724,22 +8526,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 21.016666666666666
+          "value": 18.803333333333335
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 73.44333333333333
+          "value": 46.03333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 3121152.0
+          "value": 2369536.0
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 40549990.4
+          "value": 19235976.533333335
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0daf20d1acdf1d1fc",
@@ -8815,7 +8617,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:03:24.351000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:03.397000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8831,22 +8633,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 47.31
+          "value": 14.143333333333333
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 72.87666666666667
+          "value": 41.696666666666665
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 16003345.066666666
+          "value": 4544580.266666667
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 29180808.533333335
+          "value": 21875123.2
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0e3d0cfea5e09d5f5",
@@ -8922,7 +8724,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:19:10.448000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:20:34.778000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -8938,22 +8740,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 83.45
+          "value": 8.37
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 155.44333333333333
+          "value": 93.08333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 5634798.933333334
+          "value": 573098.6666666666
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 27876283.733333334
+          "value": 25766775.466666665
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0e3e2271a26ce3e66",
@@ -9029,7 +8831,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:03:35.679000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:03:19.941000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9055,12 +8857,12 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 5003468.8
+          "value": 3024691.2
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 32066611.2
+          "value": 21006685.866666667
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0e4e37d05d419ce04",
@@ -9136,7 +8938,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:21:14.787000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:22:42.608000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9152,22 +8954,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 90.79333333333334
+          "value": 6.226666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 71.31666666666666
+          "value": 68.67
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 4316979.2
+          "value": 222754.13333333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 32453563.733333334
+          "value": 28664115.2
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0e82367dfdbc788f8",
@@ -9243,7 +9045,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:21:21.054000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:22:34.049000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9259,22 +9061,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 25.786666666666665
+          "value": 18.05666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 66.91333333333333
+          "value": 57.56333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 7245755.733333333
+          "value": 4301755.733333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 32479709.866666667
+          "value": 22641049.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0f1fc4c3faaefad5c",
@@ -9350,7 +9152,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:37:48.276000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:41:03.113000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9366,17 +9168,17 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 8.613333333333333
+          "value": 9.703333333333333
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 57.39333333333333
+          "value": 58.56
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1467323.7333333334
+          "value": 2383803.7333333334
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -9457,7 +9259,114 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:24:37.345000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:58:50.517000-04:00",
+      "lookBackPeriodInDays": 14.0,
+      "tags": [
+        {
+          "key": "eks:cluster-name",
+          "value": "deuna_pdn"
+        },
+        {
+          "key": "eks:nodegroup-name",
+          "value": "deuna_pdn-eks-customer-experience-node-group"
+        }
+      ],
+      "utilizationMetrics": [
+        {
+          "name": "VolumeReadOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 9.736666666666666
+        },
+        {
+          "name": "VolumeWriteOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 6.816666666666666
+        },
+        {
+          "name": "VolumeReadBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 1862792.5333333334
+        },
+        {
+          "name": "VolumeWriteBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 393915.73333333334
+        }
+      ],
+      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0f30b544f70731b70",
+      "volumeRecommendationOptions": [
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 150,
+            "volumeBaselineThroughput": 128,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 128,
+            "volumeSize": 50,
+            "volumeType": "gp2"
+          },
+          "performanceRisk": 1.0,
+          "rank": 2,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        },
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 3000,
+            "volumeBaselineThroughput": 125,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 125,
+            "volumeSize": 50,
+            "volumeType": "gp3"
+          },
+          "performanceRisk": 1.0,
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "accountId": "678049842740",
+      "currentConfiguration": {
+        "rootVolume": true,
+        "volumeBaselineIOPS": 150,
+        "volumeBaselineThroughput": 128,
+        "volumeBurstIOPS": 3000,
+        "volumeBurstThroughput": 128,
+        "volumeSize": 50,
+        "volumeType": "gp2"
+      },
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "Optimized",
+      "lastRefreshTimestamp": "2025-10-26T14:27:58.929000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9478,7 +9387,7 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 65.39666666666666
+          "value": 51.93
         },
         {
           "name": "VolumeReadBytesPerSecond",
@@ -9488,7 +9397,7 @@
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 41200170.666666664
+          "value": 32017066.666666668
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0f37c49ad16ba4297",
@@ -9564,7 +9473,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:10:09.429000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:16:59.465000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9580,22 +9489,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 7.506666666666667
+          "value": 7.43
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 67.14666666666666
+          "value": 37.18333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 1144763.7333333334
+          "value": 933341.8666666667
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 32644036.266666666
+          "value": 19747268.266666666
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0f3b0052d8d7b7fe7",
@@ -9671,7 +9580,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:46:34.852000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:50:43.441000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9687,22 +9596,22 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 6.06
+          "value": 0.07
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 63.17
+          "value": 52.82
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 355874.13333333336
+          "value": 7304.533333333334
         },
         {
           "name": "VolumeWriteBytesPerSecond",
           "statistic": "Maximum",
-          "value": 23063517.866666667
+          "value": 21246745.6
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0f4d92a9c638c0190",
@@ -9778,7 +9687,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T21:03:24.351000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:09:03.397000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9794,17 +9703,17 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 37.056666666666665
+          "value": 12.936666666666667
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 64.04
+          "value": 40.25
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 12085248.0
+          "value": 5212091.733333333
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -9885,7 +9794,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:29:36.716000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:31:40.776000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -9901,17 +9810,17 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 16.37
+          "value": 22.163333333333334
         },
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 69.42
+          "value": 64.38666666666667
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 4754227.2
+          "value": 3201092.2666666666
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -9992,7 +9901,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:55:41.166000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:00:30.328000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -10099,7 +10008,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:36:38.242000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:40:06.315000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [],
       "utilizationMetrics": [
@@ -10111,12 +10020,12 @@
         {
           "name": "VolumeWriteOpsPerSecond",
           "statistic": "Maximum",
-          "value": 2.0633333333333335
+          "value": 1.9333333333333333
         },
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 217634.13333333333
+          "value": 271974.4
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -10171,7 +10080,7 @@
         }
       },
       "finding": "Optimized",
-      "lastRefreshTimestamp": "2025-10-19T20:46:19.735000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T14:50:09.244000-04:00",
       "lookBackPeriodInDays": 14.0,
       "tags": [
         {
@@ -10187,7 +10096,7 @@
         {
           "name": "VolumeReadOpsPerSecond",
           "statistic": "Maximum",
-          "value": 19.606666666666666
+          "value": 15.35
         },
         {
           "name": "VolumeWriteOpsPerSecond",
@@ -10197,7 +10106,7 @@
         {
           "name": "VolumeReadBytesPerSecond",
           "statistic": "Maximum",
-          "value": 3888742.4
+          "value": 2652979.2
         },
         {
           "name": "VolumeWriteBytesPerSecond",
@@ -10206,6 +10115,113 @@
         }
       ],
       "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0fce1aa6f9f569a35",
+      "volumeRecommendationOptions": [
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 150,
+            "volumeBaselineThroughput": 128,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 128,
+            "volumeSize": 50,
+            "volumeType": "gp2"
+          },
+          "performanceRisk": 1.0,
+          "rank": 2,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        },
+        {
+          "configuration": {
+            "volumeBaselineIOPS": 3000,
+            "volumeBaselineThroughput": 125,
+            "volumeBurstIOPS": 3000,
+            "volumeBurstThroughput": 125,
+            "volumeSize": 50,
+            "volumeType": "gp3"
+          },
+          "performanceRisk": 1.0,
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 1.0
+            },
+            "savingsOpportunityPercentage": 20.0
+          }
+        }
+      ]
+    },
+    {
+      "accountId": "678049842740",
+      "currentConfiguration": {
+        "rootVolume": true,
+        "volumeBaselineIOPS": 150,
+        "volumeBaselineThroughput": 128,
+        "volumeBurstIOPS": 3000,
+        "volumeBurstThroughput": 128,
+        "volumeSize": 50,
+        "volumeType": "gp2"
+      },
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "Optimized",
+      "lastRefreshTimestamp": "2025-10-26T14:41:28.677000-04:00",
+      "lookBackPeriodInDays": 14.0,
+      "tags": [
+        {
+          "key": "eks:cluster-name",
+          "value": "deuna_pdn"
+        },
+        {
+          "key": "eks:nodegroup-name",
+          "value": "deuna_pdn-eks-merchant-node-group"
+        }
+      ],
+      "utilizationMetrics": [
+        {
+          "name": "VolumeReadOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 6.803333333333334
+        },
+        {
+          "name": "VolumeWriteOpsPerSecond",
+          "statistic": "Maximum",
+          "value": 62.836666666666666
+        },
+        {
+          "name": "VolumeReadBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 224392.53333333333
+        },
+        {
+          "name": "VolumeWriteBytesPerSecond",
+          "statistic": "Maximum",
+          "value": 12515259.733333332
+        }
+      ],
+      "volumeArn": "arn:aws:ec2:us-east-1:678049842740:volume/vol-0feda4fd39d387c01",
       "volumeRecommendationOptions": [
         {
           "configuration": {

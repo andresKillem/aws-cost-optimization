@@ -12,7 +12,7 @@
       "findingReasonCodes": [],
       "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:deuna-terraform-audit-logs:$LATEST",
       "functionVersion": "$LATEST",
-      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:12:00.091000-04:00",
       "lookbackPeriodInDays": 14.0,
       "memorySizeRecommendationOptions": [
         {
@@ -21,17 +21,17 @@
             {
               "name": "Duration",
               "statistic": "LowerBound",
-              "value": 288.5616260393046
+              "value": 289.76521164021165
             },
             {
               "name": "Duration",
               "statistic": "Expected",
-              "value": 302.9897073412698
+              "value": 304.25347222222223
             },
             {
               "name": "Duration",
               "statistic": "UpperBound",
-              "value": 318.1391927083333
+              "value": 319.46614583333337
             }
           ],
           "rank": 1,
@@ -57,7 +57,7 @@
         {
           "name": "Duration",
           "statistic": "Average",
-          "value": 302.9897073412698
+          "value": 304.25347222222223
         },
         {
           "name": "Duration",
@@ -67,7 +67,7 @@
         {
           "name": "Memory",
           "statistic": "Average",
-          "value": 92.64161706349206
+          "value": 92.58829365079364
         },
         {
           "name": "Memory",
@@ -91,7 +91,7 @@
       ],
       "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:deuna-trendmicro-av-s3-mercha-BucketListenerLambda-m0MSMSjmaSBs:3",
       "functionVersion": "3",
-      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:12:00.091000-04:00",
       "lookbackPeriodInDays": 14.0,
       "memorySizeRecommendationOptions": [
         {
@@ -183,7 +183,7 @@
       ],
       "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:deuna-uptime-monitor:$LATEST",
       "functionVersion": "$LATEST",
-      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:12:00.091000-04:00",
       "lookbackPeriodInDays": 14.0,
       "memorySizeRecommendationOptions": [
         {
@@ -192,29 +192,29 @@
             {
               "name": "Duration",
               "statistic": "LowerBound",
-              "value": 2009.0380123819045
+              "value": 1998.3545620136017
             },
             {
               "name": "Duration",
               "statistic": "Expected",
-              "value": 2109.489913001
+              "value": 2098.272290114282
             },
             {
               "name": "Duration",
               "statistic": "UpperBound",
-              "value": 2214.96440865105
+              "value": 2203.185904619996
             }
           ],
           "rank": 1
         }
       ],
-      "numberOfInvocations": 2196,
+      "numberOfInvocations": 2556,
       "tags": [],
       "utilizationMetrics": [
         {
           "name": "Duration",
           "statistic": "Average",
-          "value": 2492.351775956284
+          "value": 2479.9188184663535
         },
         {
           "name": "Duration",
@@ -224,7 +224,7 @@
         {
           "name": "Memory",
           "statistic": "Average",
-          "value": 98.03779599271402
+          "value": 98.07863849765258
         },
         {
           "name": "Memory",
@@ -245,7 +245,7 @@
       "findingReasonCodes": [],
       "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:subnet-ip-alerts-lambda:$LATEST",
       "functionVersion": "$LATEST",
-      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lastRefreshTimestamp": "2025-10-26T15:12:00.091000-04:00",
       "lookbackPeriodInDays": 14.0,
       "memorySizeRecommendationOptions": [
         {
@@ -254,17 +254,17 @@
             {
               "name": "Duration",
               "statistic": "LowerBound",
-              "value": 484.265341553288
+              "value": 483.722762542517
             },
             {
               "name": "Duration",
               "statistic": "Expected",
-              "value": 508.4786086309524
+              "value": 507.90890066964283
             },
             {
               "name": "Duration",
               "statistic": "UpperBound",
-              "value": 533.9025390625001
+              "value": 533.304345703125
             }
           ],
           "rank": 1,
@@ -290,7 +290,7 @@
         {
           "name": "Duration",
           "statistic": "Average",
-          "value": 508.4786086309524
+          "value": 507.90890066964283
         },
         {
           "name": "Duration",
@@ -300,7 +300,7 @@
         {
           "name": "Memory",
           "statistic": "Average",
-          "value": 97.98809523809524
+          "value": 97.95982142857143
         },
         {
           "name": "Memory",
@@ -376,7 +376,7 @@
     },
     {
       "FunctionName": "deuna-trendmicro-av-Scan-aca3e2a0",
-      "LastModified": "2025-10-25T08:19:59.000+0000",
+      "LastModified": "2025-10-27T03:00:45.000+0000",
       "MemorySize": 512,
       "Runtime": "python3.13",
       "Timeout": 120

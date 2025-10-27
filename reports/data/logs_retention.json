@@ -30,7 +30,7 @@
     },
     {
       "logGroupName": "/aws/events/deuna-auth0",
-      "storedBytes": 109797779279
+      "storedBytes": 110186408034
     },
     {
       "logGroupName": "/aws/lambda/StackSet-Stackset-iam-pas-IAMPasswordPolicyFunctio-DRyJlLcJEjuK",
@@ -154,7 +154,7 @@
     },
     {
       "logGroupName": "/aws/lambda/dynatrace-aws-logs-Lambda-LnfOXdCD1FfA",
-      "storedBytes": 1326026206
+      "storedBytes": 1329656914
     },
     {
       "logGroupName": "/aws/lambda/external-http-apigw-APIGATEWAY-log-transform",
@@ -198,7 +198,7 @@
     },
     {
       "logGroupName": "/aws/transfer/s-4550b638f38b4cd79",
-      "storedBytes": 92463165
+      "storedBytes": 92616075
     },
     {
       "logGroupName": "API-Gateway-Execution-Logs_88hk3wlbfj/pdn",

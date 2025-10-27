@@ -8,7 +8,7 @@
     "ResultsByTime": [
         {
             "TimePeriod": {
-                "Start": "2025-07-27",
+                "Start": "2025-07-29",
                 "End": "2025-08-01"
             },
             "Total": {},
@@ -19,7 +19,7 @@
                     ],
                     "Metrics": {
                         "UnblendedCost": {
-                            "Amount": "4449.6246628065",
+                            "Amount": "2758.1312038129",
                             "Unit": "USD"
                         }
                     }
@@ -72,7 +72,7 @@
         {
             "TimePeriod": {
                 "Start": "2025-10-01",
-                "End": "2025-10-25"
+                "End": "2025-10-27"
             },
             "Total": {},
             "Groups": [
@@ -82,7 +82,7 @@
                     ],
                     "Metrics": {
                         "UnblendedCost": {
-                            "Amount": "27285.5364925138",
+                            "Amount": "28853.1009685344",
                             "Unit": "USD"
                         }
                     }

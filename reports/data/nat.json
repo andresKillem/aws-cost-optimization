@@ -6,7 +6,7 @@
       "Groups": [],
       "TimePeriod": {
         "End": "2025-10-01",
-        "Start": "2025-09-25"
+        "Start": "2025-09-27"
       },
       "Total": {
         "UnblendedCost": {
@@ -19,7 +19,7 @@
       "Estimated": true,
       "Groups": [],
       "TimePeriod": {
-        "End": "2025-10-25",
+        "End": "2025-10-27",
         "Start": "2025-10-01"
       },
       "Total": {
