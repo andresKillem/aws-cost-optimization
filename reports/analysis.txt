@@ -1,0 +1,84 @@
+AWS Cost Optimization – Informe de Análisis
+Fecha: {{generate-at-runtime}}
+
+Resumen ejecutivo
+- Objetivo: reducir costos 20–40% en cargas persistentes y 5–15% adicionales vía higiene operativa (tags, retención, lifecycle).
+- Alcance: cómputo (EC2/EKS/Lambda), almacenamiento (EBS/S3/Snapshots/Logs), base de datos (RDS/Aurora), red (NAT/Egress), gobernanza (Budgets/Anomalies/Tags).
+- Estado de datos: este archivo es un resumen estático. Para valores reales, ejecutar scripts/collect_report.sh y abrir reports/index.html.
+
+Hallazgos principales (plantilla; se completa con datos reales)
+- Costos por servicio (90d): Top-10 servicios por gasto y tendencia. Acciones de ahorro priorizadas por impacto.
+- Pronóstico (30d): estimación diaria de costo UNBLENDED para detectar meses atípicos.
+- SP/RI: oportunidades de Savings Plans (Compute) y Reserved Instances (EC2/RDS) con horizonte 1 año, NO_UPFRONT.
+- NAT Gateway: inventario y costo de AWSNATGateway; evaluar endpoints de S3/DynamoDB y consolidación por AZ.
+- Higiene:
+  - CloudWatch Logs sin retención explícita: aplicar 30–90 días y exportar a S3 con lifecycle.
+  - Buckets S3 sin lifecycle: transicionar a IA/Glacier; expirar temporales.
+  - Snapshots EBS > 180 días: archivar o eliminar según política de retención.
+  - Recursos sin tags requeridos (CostCenter/Owner/Environment/Application): remediar para cost allocation y showback.
+
+Recomendaciones accionables (Quick wins 0–7 días)
+- EC2
+  - Rightsizing con Compute Optimizer; migrar familias x86 a Graviton (m7g/c7g/r7g/t4g) cuando sea posible.
+  - Programar apagado en dev/test (EventBridge + SSM) fuera de horario.
+  - Auto Scaling basado en métricas (CPU, RPS, profundidad de cola).
+- EBS
+  - Eliminar volúmenes sin adjuntar; gp2→gp3; reducir IOPS/Throughput no usados.
+  - Revisar snapshots antiguos y mover a Archive/Glacier.
+- S3
+  - Habilitar lifecycle: IA a 30d, Glacier a 90–180d; expirar prefijos temporales.
+  - Considerar Intelligent-Tiering para patrones de acceso inciertos.
+- Logs
+  - Definir retención en CloudWatch Logs (30/60/90 días según criticidad); exportar a S3 con lifecycle.
+- Gobernanza
+  - AWS Budgets por cuenta/servicio con alertas 50/80/100%.
+  - Cost Anomaly Detection con monitores por servicio crítico.
+  - Enforce tags en IaC/CI (CostCenter/Owner/Environment/Application).
+
+Optimización focalizada (8–30 días)
+- Savings Plans
+  - Cubrir 70–90% de carga on-demand estable con Compute SP (1 año NO_UPFRONT). Revisar cobertura y utilización mensualmente.
+- RDS/Aurora
+  - Rightsizing de instancia y almacenamiento; Aurora Serverless v2 para cargas variables.
+  - Programar apagado de entornos no productivos; habilitar auto-scaling de réplicas.
+- EKS
+  - Cluster Autoscaler/Karpenter; nodos gp3 con tamaños acordes; mezcla on-demand base + spot para burst.
+- Red
+  - Gateway Endpoints (S3/DynamoDB) en VPCs con NAT; revisar rutas cross-AZ; considerar PrivateLink.
+
+Mejoras sostenibles (30–90 días)
+- CUR + Lakehouse de costos (Athena/Glue) para análisis avanzado y chargeback.
+- Librería de módulos IaC con defaults eficientes (gp3, retención, lifecycle, tags obligatorios).
+- Políticas preventivas (SCPs) para bloquear regiones no aprobadas y tipos costosos por defecto.
+
+Métricas (KPIs sugeridos)
+- Costo total por servicio/cuenta (diario/mensual) y variación % m/m.
+- Cobertura y utilización de SP/RI.
+- % recursos con tags completos requeridos.
+- # log groups con retención; # buckets con lifecycle; # snapshots > umbral.
+- # candidatos a rightsizing/apagado (EC2/RDS/Lambda/EBS).
+
+Comandos útiles (extractos de la herramienta)
+- Costos por servicio (90d):
+  aws ce get-cost-and-usage --granularity DAILY --metrics UnblendedCost \
+    --group-by Type=DIMENSION,Key=SERVICE --time-period Start=<YYYY-MM-DD>,End=<YYYY-MM-DD>
+- Savings Plans recomendaciones:
+  aws ce get-savings-plans-purchase-recommendation --savings-plans-type COMPUTE_SP \
+    --term-in-years ONE_YEAR --payment-option NO_UPFRONT --lookback-period-in-days THIRTY_DAYS
+- RI recomendaciones (EC2):
+  aws ce get-reservation-purchase-recommendation --service AmazonEC2 --term-in-years ONE_YEAR \
+    --payment-option NO_UPFRONT --lookback-period-in-days THIRTY_DAYS
+- Log groups sin retención:
+  aws logs describe-log-groups | jq '.logGroups[] | select(.retentionInDays==null)'
+- Buckets sin lifecycle:
+  for b in $(aws s3api list-buckets --query 'Buckets[].Name' --output text); do \
+    aws s3api get-bucket-lifecycle-configuration --bucket "$b" >/dev/null 2>&1 || echo "$b"; done
+
+Cómo generar datos reales
+1) Exporta credenciales y región (perfil temporal recomendado).
+2) Ejecuta: bash scripts/collect_report.sh
+3) Abre el dashboard: cd reports && python3 -m http.server 8010 (luego navegar a http://localhost:8010)
+
+Notas
+- Este análisis se basa en prácticas FinOps (Well-Architected – Cost) y la guía del proyecto. Los números exactos dependen de la recolección en tu(s) cuenta(s).
+

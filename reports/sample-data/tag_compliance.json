@@ -1,0 +1,1 @@
+{"checked":50,"nonCompliant":7,"items":[{"id":"i-001","type":"ec2","missing":["CostCenter","Owner"]}]}

@@ -1,0 +1,1 @@
+{"source":"compute-optimizer","count":2,"candidates":[{"instanceArn":"arn:aws:ec2:::instance/i-001","finding":"Overprovisioned"},{"instanceArn":"arn:aws:ec2:::instance/i-002","finding":"NotOptimized"}]}

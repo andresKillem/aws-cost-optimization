@@ -1,1 +1,47 @@
-# Add cost allocation dashboard
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cost Dashboard</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:24px;background:#f5f7fb}
+    .card{background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px;margin-bottom:16px}
+    table{width:100%;border-collapse:collapse}
+    th,td{border-bottom:1px solid #e5e7eb;padding:8px 10px;text-align:left}
+    thead{background:#333;color:#fff}
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="card">
+    <h2>Cost Dashboard</h2>
+    <p>Para una versión completa con estilo y análisis, abre <code>../reports/index.html</code> después de ejecutar <code>scripts/collect_report.sh</code>.</p>
+  </div>
+  <div class="card">
+    <h3><i class="fas fa-chart-line"></i> Top servicios (90d)</h3>
+    <table id="top">
+      <thead><tr><th>Servicio</th><th>Costo</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <script>
+    async function load(p){try{const r=await fetch(p);return await r.json()}catch(e){return null}}
+    function fmt(n){return '$'+Number(n||0).toFixed(2)}
+    (async()=>{
+      const d=await load('../reports/data/cost_by_service_90d.json');
+      if(!d) return;
+      const map={};
+      for(const p of d.ResultsByTime||[]){
+        for(const g of p.Groups||[]){
+          const k=(g.Keys||[])[0];
+          const v=parseFloat(g.Metrics?.UnblendedCost?.Amount||'0');
+          map[k]=(map[k]||0)+v;
+        }
+      }
+      const top=Object.entries(map).sort((a,b)=>b[1]-a[1]).slice(0,10);
+      document.querySelector('#top tbody').innerHTML = top.map(([k,v])=>`<tr><td>${k}</td><td>${fmt(v)}</td></tr>`).join('');
+    })();
+  </script>
+</body>
+</html>

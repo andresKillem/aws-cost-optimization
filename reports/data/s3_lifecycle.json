@@ -1,0 +1,9 @@
+{
+  "buckets": [],
+  "recommendation": {
+    "policy": "Transicionar a S3 Standard-IA a 30d; Glacier a 90/180d; expirar temporales."
+  },
+  "region": "us-east-1",
+  "totalBuckets": 44,
+  "withoutLifecycle": 0
+}

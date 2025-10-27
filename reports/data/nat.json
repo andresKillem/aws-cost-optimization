@@ -1,0 +1,40 @@
+{
+  "items": [],
+  "natServiceCosts": [
+    {
+      "Estimated": false,
+      "Groups": [],
+      "TimePeriod": {
+        "End": "2025-10-01",
+        "Start": "2025-09-25"
+      },
+      "Total": {
+        "UnblendedCost": {
+          "Amount": "0",
+          "Unit": "USD"
+        }
+      }
+    },
+    {
+      "Estimated": true,
+      "Groups": [],
+      "TimePeriod": {
+        "End": "2025-10-25",
+        "Start": "2025-10-01"
+      },
+      "Total": {
+        "UnblendedCost": {
+          "Amount": "0",
+          "Unit": "USD"
+        }
+      }
+    }
+  ],
+  "recommendations": [
+    "Usar Gateway Endpoints para S3/DynamoDB en VPCs con NAT para reducir egress.",
+    "Consolidar NAT por AZ y evitar tr\u00e1fico cross-AZ.",
+    "Revisar rutas por defecto y endpoints privados (Interface Endpoints)."
+  ],
+  "region": "us-east-1",
+  "totalNatGateways": 0
+}

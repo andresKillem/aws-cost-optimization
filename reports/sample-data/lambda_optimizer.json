@@ -1,0 +1,1 @@
+{"inventory":[{"FunctionName":"fnA","MemorySize":512}],"computeOptimizer":[{"FunctionArn":"arn:aws:lambda:::function:fnA"}]}

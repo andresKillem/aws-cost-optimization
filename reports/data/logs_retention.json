@@ -1,0 +1,219 @@
+{
+  "candidates": [
+    {
+      "logGroupName": "/aws/apigateway/welcome",
+      "storedBytes": 132090
+    },
+    {
+      "logGroupName": "/aws/cloudfront/function/deuna-request-clientip",
+      "storedBytes": 148514331085
+    },
+    {
+      "logGroupName": "/aws/cloudfront/function/external-request-clientip",
+      "storedBytes": 9496
+    },
+    {
+      "logGroupName": "/aws/eks/logs",
+      "storedBytes": 568103
+    },
+    {
+      "logGroupName": "/aws/eks/logs/dynatrace.activegate",
+      "storedBytes": 9749758
+    },
+    {
+      "logGroupName": "/aws/eks/logs/dynatrace.certificate-loader",
+      "storedBytes": 3657
+    },
+    {
+      "logGroupName": "/aws/eks/logs/dynatrace.dynatrace-oneagent",
+      "storedBytes": 8109353
+    },
+    {
+      "logGroupName": "/aws/events/deuna-auth0",
+      "storedBytes": 109797779279
+    },
+    {
+      "logGroupName": "/aws/lambda/StackSet-Stackset-iam-pas-IAMPasswordPolicyFunctio-DRyJlLcJEjuK",
+      "storedBytes": 571
+    },
+    {
+      "logGroupName": "/aws/lambda/backoffice-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 271468903
+    },
+    {
+      "logGroupName": "/aws/lambda/business-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 41926
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 319630593
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-max-running-task",
+      "storedBytes": 1294
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-Conf-4fa57f70",
+      "storedBytes": 2614
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-Conf-aca3e2a0",
+      "storedBytes": 1272
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-Setup-ae92cc40",
+      "storedBytes": 3721
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-alias-4fa57f70",
+      "storedBytes": 7350
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-alias-aca3e2a0",
+      "storedBytes": 4332
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-alias-ae92cc40",
+      "storedBytes": 6318
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-cust-cont-Setup-3aa7c0a0",
+      "storedBytes": 2807
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-cust-cont-alias-3aa7c0a0",
+      "storedBytes": 6274
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-cu-SetupBucketNotificationL-M1iRJSbYp8y1",
+      "storedBytes": 3246
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-cus-CreateLambdaAliasLambda-1PeSc6atikV0",
+      "storedBytes": 7536
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-cus-CreateLambdaAliasLambda-8QVXLMFnPJjI",
+      "storedBytes": 6556
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-cus-CreateLambdaAliasLambda-GN8MOjev3sTf",
+      "storedBytes": 7774
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-cust-cont-Setup-89b916c0",
+      "storedBytes": 3690
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-cust-cont-alias-89b916c0",
+      "storedBytes": 6281
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-customer-content-Setup-b1931720",
+      "storedBytes": 3682
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-customer-content-Setup-c81c38d0",
+      "storedBytes": 3684
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-customer-content-alias-b1931720",
+      "storedBytes": 6297
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-customer-content-alias-c81c38d0",
+      "storedBytes": 6303
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-me-SetupBucketNotificationL-BJT9ut8680Xc",
+      "storedBytes": 1589
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-mer-CreateLambdaAliasLambda-SVvOxRe7ATPX",
+      "storedBytes": 4411
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-sf-SetupBucketNotificationL-ZJC1FnukxdCJ",
+      "storedBytes": 1597
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-sft-CreateLambdaAliasLambda-ju1tV5zht79g",
+      "storedBytes": 4496
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-st-SetupBucketNotificationL-u2zKiOzHiTvI",
+      "storedBytes": 1576
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna-trendmicro-av-s3-sta-CreateLambdaAliasLambda-bpt7HlzsIdPd",
+      "storedBytes": 4413
+    },
+    {
+      "logGroupName": "/aws/lambda/deuna_postgres_creds_rotation",
+      "storedBytes": 218266
+    },
+    {
+      "logGroupName": "/aws/lambda/dynatrace-aws-logs-Lambda-LnfOXdCD1FfA",
+      "storedBytes": 1326026206
+    },
+    {
+      "logGroupName": "/aws/lambda/external-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 201124452
+    },
+    {
+      "logGroupName": "/aws/lambda/manageUser-fraude-databricks-pdn",
+      "storedBytes": 40921225
+    },
+    {
+      "logGroupName": "/aws/lambda/manageUser-fraude-pdn",
+      "storedBytes": 41086054
+    },
+    {
+      "logGroupName": "/aws/lambda/offpayments-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 7631608
+    },
+    {
+      "logGroupName": "/aws/lambda/pdn-msk-cluster-MSK-log-transform",
+      "storedBytes": 413989972
+    },
+    {
+      "logGroupName": "/aws/lambda/people-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 138901800
+    },
+    {
+      "logGroupName": "/aws/lambda/spkpdn-VPCFLOW-logx",
+      "storedBytes": 7416990417
+    },
+    {
+      "logGroupName": "/aws/lambda/transversal-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 45224
+    },
+    {
+      "logGroupName": "/aws/lambda/www-http-apigw-APIGATEWAY-log-transform",
+      "storedBytes": 540
+    },
+    {
+      "logGroupName": "/aws/transfer/s-42f03fd575c1422f8",
+      "storedBytes": 142956
+    },
+    {
+      "logGroupName": "/aws/transfer/s-4550b638f38b4cd79",
+      "storedBytes": 92463165
+    },
+    {
+      "logGroupName": "API-Gateway-Execution-Logs_88hk3wlbfj/pdn",
+      "storedBytes": 71826925
+    },
+    {
+      "logGroupName": "API-Gateway-Execution-Logs_8spp3u9ksa/pdn",
+      "storedBytes": 579096
+    }
+  ],
+  "recommendation": {
+    "defaultRetentionDays": 30,
+    "notes": "Aplicar al menos 30-90 d\u00edas seg\u00fan criticidad; exportar a S3 con ciclo de vida para hist\u00f3rico."
+  },
+  "region": "us-east-1",
+  "totalLogGroups": 347,
+  "withoutRetention": 52
+}

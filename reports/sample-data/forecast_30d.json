@@ -1,0 +1,5 @@
+{"ForecastResultsByTime":[
+  {"TimePeriod":{"Start":"2025-10-26","End":"2025-10-27"},"MeanValue":"6.50"},
+  {"TimePeriod":{"Start":"2025-10-27","End":"2025-10-28"},"MeanValue":"6.60"},
+  {"TimePeriod":{"Start":"2025-10-28","End":"2025-10-29"},"MeanValue":"6.55"}
+]}

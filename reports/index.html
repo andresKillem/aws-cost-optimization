@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FinOps Report - AWS Cost Optimization</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <h1>FinOps Report – AWS</h1>
+        <p class="muted">Optimización de Costos, Gobernanza y Recomendaciones</p>
+      </div>
+      <nav class="main-nav">
+        <a class="nav-link" href="#resumen"><i class="fas fa-home"></i> Resumen</a>
+        <a class="nav-link" href="#costos"><i class="fas fa-chart-line"></i> Costos</a>
+        <a class="nav-link" href="#recs"><i class="fas fa-lightbulb"></i> Recomendaciones</a>
+        <a class="nav-link" href="#inventario"><i class="fas fa-boxes"></i> Inventario</a>
+      </nav>
+    </div>
+  </header>
+
+  <aside class="sidebar">
+    <h3>Navegación</h3>
+    <a href="#resumen">Resumen</a>
+    <a href="#costos">Costos</a>
+    <a href="#recs">Recomendaciones</a>
+    <a href="#inventario">Inventario</a>
+  </aside>
+
+  <main class="main">
+    <section class="section" id="notice" style="display:none">
+      <div class="section-header"><h2><i class="fas fa-circle-exclamation"></i> Aviso</h2></div>
+      <div class="section-content" id="noticeContent"></div>
+    </section>
+    <section id="resumen" class="section">
+      <div class="section-header">
+        <h2><i class="fas fa-rocket"></i> Resumen Ejecutivo</h2>
+      </div>
+      <div class="section-content">
+        <div class="grid" id="summaryGrid">
+          <div class="card stat"><span class="muted">Cuenta</span><span class="value" id="accountId">—</span></div>
+          <div class="card stat"><span class="muted">Últimos 30d</span><span class="value" id="costLastMonth">—</span></div>
+          <div class="card stat"><span class="muted">SP/RI</span><span class="value" id="spRiStatus">—</span></div>
+          <div class="card stat"><span class="muted">Recursos candidatos</span><span class="value" id="candidatesTotal">—</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="costos" class="section">
+      <div class="section-header">
+        <h2><i class="fas fa-chart-line"></i> Costos y Tendencias</h2>
+      </div>
+      <div class="section-content">
+        <h3>Top Servicios (90 días)</h3>
+        <table id="topServices"><thead><tr><th>Servicio</th><th>Costo</th></tr></thead><tbody></tbody></table>
+        <h3 style="margin-top:16px">Pronóstico 30 días</h3>
+        <table id="forecast"><thead><tr><th>Fecha</th><th>Costo</th></tr></thead><tbody></tbody></table>
+      </div>
+    </section>
+
+    <section id="recs" class="section">
+      <div class="section-header">
+        <h2><i class="fas fa-lightbulb"></i> Recomendaciones</h2>
+      </div>
+      <div class="section-content">
+        <div class="grid">
+          <div class="card">
+            <h4>Compute Optimizer / EC2</h4>
+            <div id="ec2Recs" class="muted">—</div>
+          </div>
+          <div class="card">
+            <h4>EBS</h4>
+            <div id="ebsRecs" class="muted">—</div>
+          </div>
+          <div class="card">
+            <h4>Lambda</h4>
+            <div id="lambdaRecs" class="muted">—</div>
+          </div>
+          <div class="card">
+            <h4>RDS</h4>
+            <div id="rdsRecs" class="muted">—</div>
+          </div>
+        </div>
+        <div class="grid" style="margin-top:12px">
+          <div class="card">
+            <h4>Savings Plans</h4>
+            <div id="spRecs" class="muted">—</div>
+          </div>
+          <div class="card">
+            <h4>Reserved Instances</h4>
+            <div id="riRecs" class="muted">—</div>
+          </div>
+          <div class="card">
+            <h4>NAT Gateway</h4>
+            <div id="natCosts" class="muted">—</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="inventario" class="section">
+      <div class="section-header">
+        <h2><i class="fas fa-boxes"></i> Inventario y Gobernanza</h2>
+      </div>
+      <div class="section-content">
+        <div class="grid">
+          <div class="card"><b>Log groups sin retención:</b> <span id="logsNoRetention" class="badge badge-warn">—</span></div>
+          <div class="card"><b>Buckets sin lifecycle:</b> <span id="bucketsNoLifecycle" class="badge badge-warn">—</span></div>
+          <div class="card"><b>Snapshots > 180d:</b> <span id="oldSnaps" class="badge badge-info">—</span></div>
+          <div class="card"><b>Recursos sin tags:</b> <span id="nonCompliant" class="badge badge-bad">—</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+  async function load(path){
+    try{const r=await fetch(path,{cache:'no-store'});if(!r.ok) return null;return await r.json();}catch(e){return null}
+  }
+  function fmt(n){if(n==null) return '—';return '$'+Number(n).toFixed(2)}
+  function sum(arr){return arr.reduce((a,b)=>a+Number(b||0),0)}
+
+  (async()=>{
+    // Warn if opened via file:// which blocks fetch in browsers
+    if (location.protocol === 'file:'){
+      const nc=document.getElementById('noticeContent');
+      nc.innerHTML = `
+        <p>Este reporte carga datos con <code>fetch()</code>. Para verlo correctamente, sírvelo por HTTP en vez de abrirlo con <code>file://</code>.</p>
+        <ol>
+          <li>Ejecuta: <code>bash scripts/collect_report.sh</code> en la carpeta del proyecto.</li>
+          <li>Luego: <code>cd reports && python3 -m http.server 8010</code></li>
+          <li>Abre: <code><a href="http://localhost:8010" target="_blank">http://localhost:8010</a></code></li>
+        </ol>
+      `;
+      document.getElementById('notice').style.display='block';
+    }
+    const MOCK = new URLSearchParams(location.search).get('mock')==='1';
+    async function first(paths){for(const p of paths.filter(Boolean)){const d=await load(p); if(d) return {data:d,path:p};}return null}
+    const p = (f)=>[`data/${f}`,`./data/${f}`,`../data/${f}`,MOCK?`sample-data/${f}`:null];
+    const missing=[];
+
+    const id=await first(p('identity.json')); if(id){document.getElementById('accountId').textContent=id.data.Account||'—'} else {missing.push('identity.json')}
+
+    const costsObj=await first(p('cost_by_service_90d.json'));
+    const costs = costsObj?.data;
+    if(costs&&costs.ResultsByTime){
+      const map={};
+      for(const period of costs.ResultsByTime){
+        for(const grp of (period.Groups||[])){
+          const svc=(grp.Keys||[])[0];
+          const v=parseFloat(grp.Metrics?.UnblendedCost?.Amount||'0');
+          map[svc]=(map[svc]||0)+v;
+        }
+      }
+      const top=Object.entries(map).sort((a,b)=>b[1]-a[1]).slice(0,10);
+      const tb=document.querySelector('#topServices tbody');
+      tb.innerHTML=top.length?top.map(([k,v])=>`<tr><td>${k}</td><td>${fmt(v)}</td></tr>`).join(''):`<tr><td colspan="2">Sin datos</td></tr>`;
+      const last30=(costs.ResultsByTime||[]).slice(-30);
+      let last30sum=0; for(const period of last30){for(const grp of (period.Groups||[])){last30sum+=parseFloat(grp.Metrics?.UnblendedCost?.Amount||'0');}}
+      document.getElementById('costLastMonth').textContent=fmt(last30sum);
+    } else {
+      document.querySelector('#topServices tbody').innerHTML = `<tr><td colspan="2">Sin datos</td></tr>`;
+      missing.push('cost_by_service_90d.json');
+    }
+
+    const fcObj=await first(p('forecast_30d.json')); const fc=fcObj?.data;
+    if(fc&&fc.ForecastResultsByTime){
+      const tb=document.querySelector('#forecast tbody');
+      tb.innerHTML=fc.ForecastResultsByTime.length?fc.ForecastResultsByTime.map(r=>`<tr><td>${r.TimePeriod?.Start||''}</td><td>${fmt(r.MeanValue)}</td></tr>`).join(''):`<tr><td colspan="2">Sin datos</td></tr>`;
+    } else {
+      document.querySelector('#forecast tbody').innerHTML = `<tr><td colspan="2">Sin datos</td></tr>`;
+      missing.push('forecast_30d.json');
+    }
+
+    const spObj=await first(p('sp_recommendations.json')); const sp=spObj?.data;
+    if(sp){const n=(sp.SavingsPlansPurchaseRecommendation?.SavingsPlansPurchaseRecommendationDetails||[]).length;document.getElementById('spRecs').textContent = n+ ' opciones';}
+    else {missing.push('sp_recommendations.json')}
+    const riObj=await first(p('ri_ec2_recommendations.json')); const ri=riObj?.data;
+    if(ri){const n=(ri.Recommendations||[]).length;document.getElementById('riRecs').textContent = n+ ' opciones';}
+    else {missing.push('ri_ec2_recommendations.json')}
+    // Set summary SP/RI label
+    const spCount=(sp?.SavingsPlansPurchaseRecommendation?.SavingsPlansPurchaseRecommendationDetails||[]).length||0;
+    const riCount=(ri?.Recommendations||[]).length||0;
+    document.getElementById('spRiStatus').textContent = `${spCount} SP / ${riCount} RI`;
+
+    const ec2Obj=await first(p('ec2_idle.json')); const ec2=ec2Obj?.data; if(ec2){document.getElementById('ec2Recs').textContent=(ec2.count||0)+' instancias candidatas';} else {missing.push('ec2_idle.json')}
+    const ebsObj=await first(p('ebs_optimizer.json')); const ebs=ebsObj?.data; if(ebs){document.getElementById('ebsRecs').textContent=(ebs.unattached?.length||0)+' volúmenes sin adjuntar';} else {missing.push('ebs_optimizer.json')}
+    const lamObj=await first(p('lambda_optimizer.json')); const lam=lamObj?.data; if(lam){document.getElementById('lambdaRecs').textContent=(lam.computeOptimizer?.length||0)+' recomendaciones';} else {missing.push('lambda_optimizer.json')}
+    const rdsObj=await first(p('rds_rightsizing.json')); const rds=rdsObj?.data; if(rds){document.getElementById('rdsRecs').textContent=(rds.rightsizing?.recommendations?.length||0)+' recomendaciones';} else {missing.push('rds_rightsizing.json')}
+
+    const natObj=await first(p('nat.json')); const nat=natObj?.data;
+    if(nat){
+      const last=(nat.natServiceCosts||[]).slice(-1)[0];
+      const amount= last?.Total?.UnblendedCost?.Amount||0;
+      document.getElementById('natCosts').textContent='NATs: '+(nat.totalNatGateways||0)+', costo '+fmt(amount);
+    } else {missing.push('nat.json')}
+
+    const logs=await first(p('logs_retention.json'))?.data;
+    if(logs){document.getElementById('logsNoRetention').textContent=logs.withoutRetention||0}
+    else {missing.push('logs_retention.json')}
+    const s3=await first(p('s3_lifecycle.json'))?.data;
+    if(s3){document.getElementById('bucketsNoLifecycle').textContent=s3.withoutLifecycle||0}
+    else {missing.push('s3_lifecycle.json')}
+    const snaps=await first(p('ebs_snapshots.json'))?.data;
+    if(snaps){document.getElementById('oldSnaps').textContent=snaps.olderThanThreshold||0}
+    else {missing.push('ebs_snapshots.json')}
+    const tags=await first(p('tag_compliance.json'))?.data;
+    if(tags){document.getElementById('nonCompliant').textContent=tags.nonCompliant||0}
+    else {missing.push('tag_compliance.json')}
+
+    const totalCands=(ec2?.count||0)+(ebs?.unattached?.length||0)+(rds?.rightsizing?.recommendations?.length||0)
+    document.getElementById('candidatesTotal').textContent=totalCands
+
+    // If any data file missing, show notice with next steps
+    if(missing.length){
+      const nc=document.getElementById('noticeContent');
+      nc.innerHTML = `
+        <p>No se encontraron algunos archivos de datos:</p>
+        <pre class="muted">${missing.map(x=>"data/"+x).join('\n')}</pre>
+        <p>Para generarlos ejecuta:</p>
+        <pre>bash scripts/collect_report.sh</pre>
+        <p>y luego abre este reporte desde un servidor HTTP:<br/>cd reports && python3 -m http.server 8010</p>
+      `;
+      document.getElementById('notice').style.display='block';
+    }
+  })();
+  </script>
+</body>
+</html>

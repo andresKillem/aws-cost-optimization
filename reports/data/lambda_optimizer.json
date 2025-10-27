@@ -1,0 +1,659 @@
+{
+  "computeOptimizer": [
+    {
+      "accountId": "678049842740",
+      "currentMemorySize": 128,
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "Optimized",
+      "findingReasonCodes": [],
+      "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:deuna-terraform-audit-logs:$LATEST",
+      "functionVersion": "$LATEST",
+      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lookbackPeriodInDays": 14.0,
+      "memorySizeRecommendationOptions": [
+        {
+          "memorySize": 128,
+          "projectedUtilizationMetrics": [
+            {
+              "name": "Duration",
+              "statistic": "LowerBound",
+              "value": 288.5616260393046
+            },
+            {
+              "name": "Duration",
+              "statistic": "Expected",
+              "value": 302.9897073412698
+            },
+            {
+              "name": "Duration",
+              "statistic": "UpperBound",
+              "value": 318.1391927083333
+            }
+          ],
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        }
+      ],
+      "numberOfInvocations": 4032,
+      "tags": [],
+      "utilizationMetrics": [
+        {
+          "name": "Duration",
+          "statistic": "Average",
+          "value": 302.9897073412698
+        },
+        {
+          "name": "Duration",
+          "statistic": "Maximum",
+          "value": 13107.3896484375
+        },
+        {
+          "name": "Memory",
+          "statistic": "Average",
+          "value": 92.64161706349206
+        },
+        {
+          "name": "Memory",
+          "statistic": "Maximum",
+          "value": 95.0
+        }
+      ]
+    },
+    {
+      "accountId": "678049842740",
+      "currentMemorySize": 128,
+      "currentPerformanceRisk": "VeryLow",
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "NotOptimized",
+      "findingReasonCodes": [
+        "MemoryUnderprovisioned"
+      ],
+      "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:deuna-trendmicro-av-s3-mercha-BucketListenerLambda-m0MSMSjmaSBs:3",
+      "functionVersion": "3",
+      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lookbackPeriodInDays": 14.0,
+      "memorySizeRecommendationOptions": [
+        {
+          "memorySize": 160,
+          "projectedUtilizationMetrics": [
+            {
+              "name": "Duration",
+              "statistic": "LowerBound",
+              "value": 3387.8985023101827
+            },
+            {
+              "name": "Duration",
+              "statistic": "Expected",
+              "value": 3557.293427425692
+            },
+            {
+              "name": "Duration",
+              "statistic": "UpperBound",
+              "value": 3735.1580987969764
+            }
+          ],
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        }
+      ],
+      "numberOfInvocations": 87,
+      "tags": [
+        {
+          "key": "aws:cloudformation:stack-name",
+          "value": "deuna-trendmicro-av-s3-merchants-fe-content"
+        },
+        {
+          "key": "aws:cloudformation:stack-id",
+          "value": "arn:aws:cloudformation:us-east-1:678049842740:stack/deuna-trendmicro-av-s3-merchants-fe-content/6836fbe0-77f9-11ee-be1b-0e87c34ee849"
+        },
+        {
+          "key": "aws:cloudformation:logical-id",
+          "value": "BucketListenerLambda"
+        }
+      ],
+      "utilizationMetrics": [
+        {
+          "name": "Duration",
+          "statistic": "Average",
+          "value": 4456.653735632184
+        },
+        {
+          "name": "Duration",
+          "statistic": "Maximum",
+          "value": 4818.08984375
+        },
+        {
+          "name": "Memory",
+          "statistic": "Average",
+          "value": 88.74712643678161
+        },
+        {
+          "name": "Memory",
+          "statistic": "Maximum",
+          "value": 89.0
+        }
+      ]
+    },
+    {
+      "accountId": "678049842740",
+      "currentMemorySize": 128,
+      "currentPerformanceRisk": "VeryLow",
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "NotOptimized",
+      "findingReasonCodes": [
+        "MemoryUnderprovisioned"
+      ],
+      "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:deuna-uptime-monitor:$LATEST",
+      "functionVersion": "$LATEST",
+      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lookbackPeriodInDays": 14.0,
+      "memorySizeRecommendationOptions": [
+        {
+          "memorySize": 160,
+          "projectedUtilizationMetrics": [
+            {
+              "name": "Duration",
+              "statistic": "LowerBound",
+              "value": 2009.0380123819045
+            },
+            {
+              "name": "Duration",
+              "statistic": "Expected",
+              "value": 2109.489913001
+            },
+            {
+              "name": "Duration",
+              "statistic": "UpperBound",
+              "value": 2214.96440865105
+            }
+          ],
+          "rank": 1
+        }
+      ],
+      "numberOfInvocations": 2196,
+      "tags": [],
+      "utilizationMetrics": [
+        {
+          "name": "Duration",
+          "statistic": "Average",
+          "value": 2492.351775956284
+        },
+        {
+          "name": "Duration",
+          "statistic": "Maximum",
+          "value": 10000.0
+        },
+        {
+          "name": "Memory",
+          "statistic": "Average",
+          "value": 98.03779599271402
+        },
+        {
+          "name": "Memory",
+          "statistic": "Maximum",
+          "value": 108.0
+        }
+      ]
+    },
+    {
+      "accountId": "678049842740",
+      "currentMemorySize": 128,
+      "effectiveRecommendationPreferences": {
+        "savingsEstimationMode": {
+          "source": "CostOptimizationHub"
+        }
+      },
+      "finding": "Optimized",
+      "findingReasonCodes": [],
+      "functionArn": "arn:aws:lambda:us-east-1:678049842740:function:subnet-ip-alerts-lambda:$LATEST",
+      "functionVersion": "$LATEST",
+      "lastRefreshTimestamp": "2025-10-25T09:10:59.297000-04:00",
+      "lookbackPeriodInDays": 14.0,
+      "memorySizeRecommendationOptions": [
+        {
+          "memorySize": 128,
+          "projectedUtilizationMetrics": [
+            {
+              "name": "Duration",
+              "statistic": "LowerBound",
+              "value": 484.265341553288
+            },
+            {
+              "name": "Duration",
+              "statistic": "Expected",
+              "value": 508.4786086309524
+            },
+            {
+              "name": "Duration",
+              "statistic": "UpperBound",
+              "value": 533.9025390625001
+            }
+          ],
+          "rank": 1,
+          "savingsOpportunity": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          },
+          "savingsOpportunityAfterDiscounts": {
+            "estimatedMonthlySavings": {
+              "currency": "USD",
+              "value": 0.0
+            },
+            "savingsOpportunityPercentage": 0.0
+          }
+        }
+      ],
+      "numberOfInvocations": 672,
+      "tags": [],
+      "utilizationMetrics": [
+        {
+          "name": "Duration",
+          "statistic": "Average",
+          "value": 508.4786086309524
+        },
+        {
+          "name": "Duration",
+          "statistic": "Maximum",
+          "value": 834.1599731445312
+        },
+        {
+          "name": "Memory",
+          "statistic": "Average",
+          "value": 97.98809523809524
+        },
+        {
+          "name": "Memory",
+          "statistic": "Maximum",
+          "value": 100.0
+        }
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "FunctionName": "deuna-ses-email-forward",
+      "LastModified": "2025-10-08T06:20:21.000+0000",
+      "MemorySize": 128,
+      "Runtime": "nodejs22.x",
+      "Timeout": 10
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-sft-PostScanActionTagLambda-JwH6b0rY1HxC",
+      "LastModified": "2025-10-02T13:53:01.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 15
+    },
+    {
+      "FunctionName": "deuna-integration-s3-remediation",
+      "LastModified": "2025-10-17T16:25:00.000+0000",
+      "MemorySize": 256,
+      "Runtime": "python3.13",
+      "Timeout": 300
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-mer-PostScanActionTagLambda-BO54GRhiQntu",
+      "LastModified": "2025-10-02T13:48:56.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 15
+    },
+    {
+      "FunctionName": "subnet-ip-alerts-lambda",
+      "LastModified": "2025-09-16T21:30:01.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 20
+    },
+    {
+      "FunctionName": "transversal-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:51:59.597+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "offpayments-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:42:49.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-firewall-function",
+      "LastModified": "2025-10-17T16:25:00.000+0000",
+      "MemorySize": 512,
+      "Runtime": "python3.13",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:51:50.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-Scan-aca3e2a0",
+      "LastModified": "2025-10-25T08:19:59.000+0000",
+      "MemorySize": 512,
+      "Runtime": "python3.13",
+      "Timeout": 120
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-SDL-aca3e2a0",
+      "LastModified": "2025-10-02T13:55:37.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-running-task",
+      "LastModified": "2025-10-17T16:25:01.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 10
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-Conf-aca3e2a0",
+      "LastModified": "2025-10-02T13:55:37.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 30
+    },
+    {
+      "FunctionName": "deuna-integration-logs-mambu",
+      "LastModified": "2025-10-17T16:25:00.000+0000",
+      "MemorySize": 256,
+      "Runtime": "python3.13",
+      "Timeout": 300
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-mercha-BucketListenerLambda-m0MSMSjmaSBs",
+      "LastModified": "2025-10-02T13:48:53.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 15
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-sftp-c-BucketListenerLambda-V4JeTPabNHv5",
+      "LastModified": "2025-10-02T13:53:01.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 15
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-static-BucketListenerLambda-1wHrud87APaN",
+      "LastModified": "2025-10-02T13:44:40.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 15
+    },
+    {
+      "FunctionName": "deuna-sns-logging",
+      "LastModified": "2025-10-17T16:25:00.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 3
+    },
+    {
+      "FunctionName": "deuna-opensearch-put-data",
+      "LastModified": "2025-10-17T16:27:47.000+0000",
+      "MemorySize": 3000,
+      "Runtime": "python3.13",
+      "Timeout": 900
+    },
+    {
+      "FunctionName": "StackSet-Stackset-iam-pas-IAMPasswordPolicyFunctio-DRyJlLcJEjuK",
+      "LastModified": "2025-10-17T16:19:54.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 300
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-sta-PostScanActionTagLambda-PIUoLCQCtSby",
+      "LastModified": "2025-10-02T13:44:40.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 15
+    },
+    {
+      "FunctionName": "www-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:46:14.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-eventbridge-notifier-msk",
+      "LastModified": "2025-10-15T20:52:23.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-sf-SetupBucketNotificationL-ZJC1FnukxdCJ",
+      "LastModified": "2025-10-02T13:53:10.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 50
+    },
+    {
+      "FunctionName": "aws-quicksetup-lifecycle-TA-bso0h",
+      "LastModified": "2025-10-17T16:20:22.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 900
+    },
+    {
+      "FunctionName": "external-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:58:18.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-audit-msk-to-s3",
+      "LastModified": "2025-10-15T20:51:50.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 61
+    },
+    {
+      "FunctionName": "deuna_pdn-EKS-logx",
+      "LastModified": "2025-10-15T19:55:35.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-aurora-pg-cluster-v1-RDS-logx",
+      "LastModified": "2025-10-15T20:51:50.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-integration-logs-pts",
+      "LastModified": "2025-10-17T16:25:00.000+0000",
+      "MemorySize": 256,
+      "Runtime": "python3.13",
+      "Timeout": 300
+    },
+    {
+      "FunctionName": "deuna-tfcloud-audit-logs-aggregation-SERVICE-logx",
+      "LastModified": "2025-10-15T20:51:50.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-costs-monitor",
+      "LastModified": "2025-10-17T16:25:00.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 10
+    },
+    {
+      "FunctionName": "aws-controltower-NotificationForwarder",
+      "LastModified": "2025-08-28T16:10:34.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-terraform-audit-logs",
+      "LastModified": "2025-09-18T21:39:20.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 30
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-me-SetupBucketNotificationL-BJT9ut8680Xc",
+      "LastModified": "2025-10-02T13:49:03.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 50
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-st-SetupBucketNotificationL-u2zKiOzHiTvI",
+      "LastModified": "2025-10-02T13:44:49.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 50
+    },
+    {
+      "FunctionName": "people-direct-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:42:49.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-alias-aca3e2a0",
+      "LastModified": "2025-10-02T13:55:56.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 120
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-mer-CreateLambdaAliasLambda-SVvOxRe7ATPX",
+      "LastModified": "2025-10-02T13:49:07.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 120
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-sft-CreateLambdaAliasLambda-ju1tV5zht79g",
+      "LastModified": "2025-10-02T13:53:11.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 120
+    },
+    {
+      "FunctionName": "pdn-msk-cluster-MSK-logx",
+      "LastModified": "2025-10-15T20:51:50.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-trendmicro-av-s3-sta-CreateLambdaAliasLambda-bpt7HlzsIdPd",
+      "LastModified": "2025-10-02T13:44:51.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 120
+    },
+    {
+      "FunctionName": "dynatrace-aws-logs-Lambda-LnfOXdCD1FfA",
+      "LastModified": "2025-10-17T16:21:23.000+0000",
+      "MemorySize": 256,
+      "Runtime": "python3.13",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "spkpdn-RDS-logx",
+      "LastModified": "2025-10-17T16:23:42.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "backoffice-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:52:23.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "business-portal-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:46:14.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "business-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:56:46.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    },
+    {
+      "FunctionName": "deuna-uptime-monitor",
+      "LastModified": "2025-10-17T16:25:01.000+0000",
+      "MemorySize": 128,
+      "Runtime": "python3.13",
+      "Timeout": 10
+    },
+    {
+      "FunctionName": "people-http-apigw-APIGATEWAY-logx",
+      "LastModified": "2025-10-15T20:42:49.000+0000",
+      "MemorySize": 512,
+      "Runtime": "nodejs22.x",
+      "Timeout": 60
+    }
+  ],
+  "region": "us-east-1"
+}

@@ -1,0 +1,102 @@
+{
+    "GroupDefinitions": [
+        {
+            "Type": "DIMENSION",
+            "Key": "LINKED_ACCOUNT"
+        }
+    ],
+    "ResultsByTime": [
+        {
+            "TimePeriod": {
+                "Start": "2025-07-27",
+                "End": "2025-08-01"
+            },
+            "Total": {},
+            "Groups": [
+                {
+                    "Keys": [
+                        "678049842740"
+                    ],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "4449.6246628065",
+                            "Unit": "USD"
+                        }
+                    }
+                }
+            ],
+            "Estimated": false
+        },
+        {
+            "TimePeriod": {
+                "Start": "2025-08-01",
+                "End": "2025-09-01"
+            },
+            "Total": {},
+            "Groups": [
+                {
+                    "Keys": [
+                        "678049842740"
+                    ],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "30140.1148017304",
+                            "Unit": "USD"
+                        }
+                    }
+                }
+            ],
+            "Estimated": false
+        },
+        {
+            "TimePeriod": {
+                "Start": "2025-09-01",
+                "End": "2025-10-01"
+            },
+            "Total": {},
+            "Groups": [
+                {
+                    "Keys": [
+                        "678049842740"
+                    ],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "32186.2241365417",
+                            "Unit": "USD"
+                        }
+                    }
+                }
+            ],
+            "Estimated": false
+        },
+        {
+            "TimePeriod": {
+                "Start": "2025-10-01",
+                "End": "2025-10-25"
+            },
+            "Total": {},
+            "Groups": [
+                {
+                    "Keys": [
+                        "678049842740"
+                    ],
+                    "Metrics": {
+                        "UnblendedCost": {
+                            "Amount": "27285.5364925138",
+                            "Unit": "USD"
+                        }
+                    }
+                }
+            ],
+            "Estimated": true
+        }
+    ],
+    "DimensionValueAttributes": [
+        {
+            "Value": "678049842740",
+            "Attributes": {
+                "description": "d1-can-dig-pdn"
+            }
+        }
+    ]
+}

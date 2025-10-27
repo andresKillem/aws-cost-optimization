@@ -1,0 +1,24 @@
+{
+  "ResultsByTime": [
+    {"TimePeriod":{"Start":"2025-09-26","End":"2025-09-27"},"Groups":[
+      {"Keys":["AmazonEC2"],"Metrics":{"UnblendedCost":{"Amount":"5.50","Unit":"USD"}}},
+      {"Keys":["Amazon Simple Storage Service"],"Metrics":{"UnblendedCost":{"Amount":"0.80","Unit":"USD"}}}
+    ]},
+    {"TimePeriod":{"Start":"2025-09-27","End":"2025-09-28"},"Groups":[
+      {"Keys":["AmazonEC2"],"Metrics":{"UnblendedCost":{"Amount":"5.20","Unit":"USD"}}},
+      {"Keys":["Amazon Simple Storage Service"],"Metrics":{"UnblendedCost":{"Amount":"0.75","Unit":"USD"}}}
+    ]},
+    {"TimePeriod":{"Start":"2025-09-28","End":"2025-09-29"},"Groups":[
+      {"Keys":["AmazonEC2"],"Metrics":{"UnblendedCost":{"Amount":"5.30","Unit":"USD"}}},
+      {"Keys":["Amazon CloudWatch"],"Metrics":{"UnblendedCost":{"Amount":"0.40","Unit":"USD"}}}
+    ]},
+    {"TimePeriod":{"Start":"2025-09-29","End":"2025-09-30"},"Groups":[
+      {"Keys":["AmazonEC2"],"Metrics":{"UnblendedCost":{"Amount":"5.60","Unit":"USD"}}},
+      {"Keys":["AWSNATGateway"],"Metrics":{"UnblendedCost":{"Amount":"0.50","Unit":"USD"}}}
+    ]},
+    {"TimePeriod":{"Start":"2025-09-30","End":"2025-10-01"},"Groups":[
+      {"Keys":["AmazonEC2"],"Metrics":{"UnblendedCost":{"Amount":"5.40","Unit":"USD"}}},
+      {"Keys":["Amazon Simple Storage Service"],"Metrics":{"UnblendedCost":{"Amount":"0.85","Unit":"USD"}}}
+    ]}
+  ]
+}

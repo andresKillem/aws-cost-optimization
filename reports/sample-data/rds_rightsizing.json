@@ -1,0 +1,1 @@
+{"rightsizing":{"recommendations":[{"resourceId":"db-prod"}]},"inventory":[{"DBInstanceIdentifier":"db-prod","DBInstanceClass":"db.m6g.large"}]}

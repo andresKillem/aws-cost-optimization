@@ -1,0 +1,31 @@
+{
+  "inventory": [
+    {
+      "AllocatedStorage": 1,
+      "DBInstanceClass": "db.r6g.xlarge",
+      "DBInstanceIdentifier": "deuna-read-replica-0",
+      "Engine": "aurora-postgresql",
+      "MultiAZ": false
+    },
+    {
+      "AllocatedStorage": 1,
+      "DBInstanceClass": "db.r6g.xlarge",
+      "DBInstanceIdentifier": "deuna-read-replica-1",
+      "Engine": "aurora-postgresql",
+      "MultiAZ": false
+    },
+    {
+      "AllocatedStorage": 1,
+      "DBInstanceClass": "db.r6g.xlarge",
+      "DBInstanceIdentifier": "deuna-read-write-instance",
+      "Engine": "aurora-postgresql",
+      "MultiAZ": false
+    }
+  ],
+  "region": "us-east-1",
+  "rightsizing": {
+    "error": "Command failed: aws --output json ce get-rightsizing-recommendations --service AmazonRDS --filter '{}' --region us-east-1\n\nusage: aws [options] <command> <subcommand> [<subcommand> ...] [parameters]\nTo see help text, you can run:\n\n  aws help\n  aws <command> help\n  aws <command> <subcommand> help\n\naws: error: argument operation: Invalid choice, valid choices are:\n\ncreate-anomaly-monitor                   | create-anomaly-subscription             \ncreate-cost-category-definition          | delete-anomaly-monitor                  \ndelete-anomaly-subscription              | delete-cost-category-definition         \ndescribe-cost-category-definition        | get-anomalies                           \nget-anomaly-monitors                     | get-anomaly-subscriptions               \nget-approximate-usage-records            | get-commitment-purchase-analysis        \nget-cost-and-usage                       | get-cost-and-usage-comparisons          \nget-cost-and-usage-with-resources        | get-cost-categories                     \nget-cost-comparison-drivers              | get-cost-forecast                       \nget-dimension-values                     | get-reservation-coverage                \nget-reservation-purchase-recommendation  | get-reservation-utilization             \nget-rightsizing-recommendation           | get-savings-plan-purchase-recommendation-details\nget-savings-plans-coverage               | get-savings-plans-purchase-recommendation\nget-savings-plans-utilization            | get-savings-plans-utilization-details   \nget-tags                                 | get-usage-forecast                      \nlist-commitment-purchase-analyses        | list-cost-allocation-tag-backfill-history\nlist-cost-allocation-tags                | list-cost-category-definitions          \nlist-savings-plans-purchase-recommendation-generation | list-tags-for-resource                  \nprovide-anomaly-feedback                 | start-commitment-purchase-analysis      \nstart-cost-allocation-tag-backfill       | start-savings-plans-purchase-recommendation-generation\ntag-resource                             | untag-resource                          \nupdate-anomaly-monitor                   | update-anomaly-subscription             \nupdate-cost-allocation-tags-status       | update-cost-category-definition         \nhelp                                    \n\n\nInvalid choice: 'get-rightsizing-recommendations', maybe you meant:\n\n  * get-rightsizing-recommendation\n\n",
+    "recommendations": [],
+    "source": "ce"
+  }
+}
